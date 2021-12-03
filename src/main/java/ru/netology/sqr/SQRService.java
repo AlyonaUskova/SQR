@@ -10,7 +10,7 @@ public class SQRService {
             // число в квадрате
             j = i * i;
             // сравнение квадрата с числами, вхоящими в диапазон
-            if (j > minValue && j < maxValue) {
+            if (j >= minValue && j <= maxValue) {
                 // при выполнении условия счетчик увеличивается на 1
                 num++;
             }
